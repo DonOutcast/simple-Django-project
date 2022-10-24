@@ -5,5 +5,5 @@ from django.shortcuts import render
 def index(request):
     return HttpResponse("Hello World")
 
-def categori(request):
+def categori(request, catid):
     return HttpResponse("<h1>Don Outcast </h1>")
